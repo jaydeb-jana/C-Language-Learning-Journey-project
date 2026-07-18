@@ -14,7 +14,12 @@ int num, dg, temp_num, res = 0;
    temp_num = (temp_num / 10);
     }
     
-    printf("%d", res);
+    if(res == num) {
+    printf("%d is Palindrome number", num);
+    } else {
+    printf("%d is Not Palindrome number", num);
+    }
+    
     
     return 0;
 }
